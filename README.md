@@ -96,7 +96,7 @@ macOS users need to point CMake at OpenAL Soft (better solutions welcome):
 
 ## Using the provided Windows binaries
 
-Get a clone of the latest binaries here: https://github.com/dhewm/dhewm3-libs
+Get a clone of the latest binaries here: https://github.com/wof8317/dhewm3-libs
 
 There are two subfolders:
 
@@ -105,7 +105,7 @@ There are two subfolders:
 
 Issue the appropriate command from the build folder, for example:
 
-`cmake -G "Visual Studio 10" -DDHEWM3LIBS=/path/to/dhewm3-libs/i686-w64-mingw32 /path/to/repository/neo`
+`cmake -G "Visual Studio 19" -DDHEWM3LIBS=/path/to/dhewm3-libs/i686-w64-mingw32 /path/to/repository/neo`
 
 `cmake -G "MinGW Makefiles" -DDHEWM3LIBS=/path/to/dhewm3-libs/x86_64-w64-mingw32 /path/to/repository/neo`
 
